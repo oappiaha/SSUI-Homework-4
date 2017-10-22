@@ -230,6 +230,7 @@ table, th, td{
   color: #E0CAB8;
   font-family: 'Modak', cursive;
   font-size: 2.6em;
+
 }
 
 .cartTotal{
@@ -237,6 +238,7 @@ table, th, td{
   color: #E0CAB8;
   font-family: 'Modak', cursive;
   font-size: 2.6em;
+  position: fixed;
   
 }
 .cartRow{
