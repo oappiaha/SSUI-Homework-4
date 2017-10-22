@@ -3,24 +3,305 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  animation: App-logo-spin infinite 10s linear;
   height: 80px;
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
+  background: url("resources/images/bake.png");
+  height: 400px;
   padding: 20px;
-  color: white;
+  color: #E0CAB8;
 }
 
 .App-title {
-  font-size: 1.5em;
+  font-size: 3.5em;
+  font-style: italic;
+  font-family: 'Modak', cursive;
+}
+
+.App-h3 {
+  font-size: 3.5em;
+  font-style: italic;
+  color: #E0CAB8;
+  font-family: 'Modak', cursive;
 }
 
 .App-intro {
   font-size: large;
 }
+
+.App-about{
+  text-align: center;
+  
+}
+
+.App-aboutUs{
+  font-size: 1.5em;
+  font-style: italic;
+  text-align: center;
+  color: #A58C79;
+  font-family: 'Modak', cursive;
+
+}
+
+.App-aboutBuns1{
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+}
+
+.App-aboutBuns2{
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+}
+
+.App-navMenu{
+  position: relative;
+  display: inline-block;
+  float: center;
+  padding: 10px;
+}
+
+
+.App-navMenu-button{
+  display: inline-block;
+  float: center;
+  border: 3px solid #E0CAB8;
+  color: white;
+  font-size: 14pt;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 10px;
+  cursor: default;
+}
+
+.App-navMenu-button:hover{
+  text-decoration: underline;
+  color: #E0CAB8;
+}
+
+.App-shopCard {
+    box-shadow: 0 4px 8px 2px #E0CAB8;
+    display: inline-block;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    width: 200px;
+    height: 375px;
+    float: left;
+    border-radius: 5px;
+}
+
+.App-shopCard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.App-shopImg {
+    border-radius: 5px 5px 0 0;
+}
+
+.App-shopContainer {
+    padding: 2px 16px;
+    text-align: center;
+}
+
+.App-shopCardName {
+    font-size: 1.25em;
+    color: #A58C79
+    
+}
+
+.App-shopCardPrice {
+    font-size: 2.25em;
+    color: #E0CAB8;
+    text-decoration: underline;
+
+    
+}
+
+.productTitle{
+  font-family: 'Modak', cursive;
+}
+
+.detailPane{
+  position: fixed;
+  opacity: 0.95;
+  width: 400px;
+  height: 100%;
+  float: left;
+  top: 0px;
+  left: 0px;
+  background-color: #E0CAB8;
+  border-right: 3px solid black;
+  box-shadow: 2px 0px 2px #e0e0e0;
+  padding: 10px;
+  padding-top: 100px;
+}
+
+.productLabel{
+  font-family: 'Modak', cursive;
+}
+
+.productPrice{
+  font-family: 'Modak', cursive;
+  font-size: 2.5em;
+}
+
+
+.productAdd{
+  background-color: #EAB37D; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.productQuantity{
+  font-family: 'Modak', cursive;
+  text-decoration: underline;
+}
+
+.productCart{
+  background-color: #BA8B5D; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  
+}
+
+.Xout{
+  float: right;
+  font-weight: 2.6em;
+}
+
+.Xout{
+  font-weight: 3.6em;
+  font-style: bold;
+}
+
+th {
+  background-color: #E0CAB8;
+  color: white;
+  padding: 10px;
+}
+
+table {
+  width: 50%;  
+}
+
+table, th, td{
+  border: 5px solid #E0CAB8;
+}
+
+.cartTotals{
+  float: right;
+  margin-right: 200px;
+}
+
+.cartContainer{
+  width: 100%;
+}
+
+.cartGrand{
+  text-decoration: underline;
+  color: #E0CAB8;
+  font-family: 'Modak', cursive;
+  font-size: 2.6em;
+}
+
+.cartTotal{
+  
+  color: #E0CAB8;
+  font-family: 'Modak', cursive;
+  font-size: 2.6em;
+  
+}
+.cartRow{
+  text-align: center;
+  color: #BA8B5D;
+  font-family: 'Modak', cursive;
+}
+
+.cartRow:hover{
+  text-decoration: underline;
+  background-color: #E0CAB8;
+  color: black;
+}
+
+.cartItemName{
+  
+  font-size: 1.7em;
+  
+}
+
+.cartAlert {
+    padding: 20px;
+    background-color: #94ED94;
+    color: white;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    color: black;
+    
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 115%;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    background-color: #E0CAB8;
+}
+
+.tooltiptext h4{
+  text-decoration: underline;
+}
+
+.miniImage{
+  float: left;
+}
+
+.miniBorder{
+  border-bottom: 2px black;
+}
+
+
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
